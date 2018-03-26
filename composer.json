@@ -1,0 +1,20 @@
+{
+    "name": "jasacloud/crontabmanager",
+    "description": "Library to handle Crontab Manager Scheduler",
+    "keywords": ["Jasacloud", "Cron", "Crontab", "Cronjob", "CrontabManager", "Library"],
+    "type": "library",
+    "homepage": "https://github.com/jasacloud/crontabmanager",
+    "license": "GPL-3.0-or-later",
+    "authors": [{
+	    "name": "Dwi BudUt",
+	    "email": "dwi@jasacloud.com",
+	    "homepage": "https://www.jasacloud.com",
+	    "role": "Developer"
+	}],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "files": ["src/CrontabManager/Autoload.php"]
+    }
+}
